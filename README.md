@@ -62,7 +62,7 @@ At the root of the project rename `config.example.jsonc` to `config.jsonc`. It s
 ```jsonc
 {
   "apiKey": "API KEY HERE", // To get an api key, head to https://developer.hypixel.net/ and log in with your Hypixel Forums Account.
-    // (NOTE: You need to create an app on the website. We suggest using the personal option. After that, you can click create API key and enter that here)
+  // (NOTE: You need to create an app on the website. We suggest using the personal option. After that, you can click create API key and enter that here)
   "server": {
     // Change this to the server you are trying to connect, by default it will be set as hypixel.
     // (NOTE: Most other servers will not work)
@@ -97,8 +97,7 @@ $ npm start
 ```
 
 ### Starting without console
-
-Go to HybrProxy/dashboard/build. You should then see the specific package for the operating system you built HybrProxy on. It will end with exe/AppImage/dmg. Run the package and HybrProxy will install and all you will need to do is run it.
+Go to `HybrProxy/dashboard/dist`. You should then see the specific package for the operating system you built HybrProxy on. It will end with `exe`/`AppImage`/`dmg` (`dmg` will be inside a directory which starts with the word "mac"). Run the file and HybrProxy will automatically start running!
 
 You will still need console for issues within the code to either report or solve yourself.
 
@@ -123,7 +122,7 @@ Open a browser and login with your Microsoft account.
 
 ## 🧪 Contributing
 
-If you want to contribute features, please make a [`fork`](https://github.com/HybrisMC/HybrProxy/fork) of the branch.
+If you want to contribute features, please make a [`fork`](https://github.com/HybrisMC/HybrProxy/fork) of the repository.
 
 ---
 
